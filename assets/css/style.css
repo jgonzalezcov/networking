@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2424b6;
+}
+.principal {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 3;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.contactos {
+  display: flex;
+  background-color: #ef2b0d;
+  border: solid 2px #fff;
+  border-style: groove;
+  border-radius: 8px;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+}
