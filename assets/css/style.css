@@ -3,6 +3,22 @@ body {
   margin: 0;
   background-color: #2424b6;
 }
+
+main {
+  display: flex;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  background-color: #ef2b0d;
+  border: solid 2px #fff;
+  border-style: groove;
+  border-radius: 8px;
+  height: 100vh;
+  width: 23em;
+}
+
 .principal {
   display: flex;
   display: flex;
@@ -10,17 +26,181 @@ body {
   justify-content: center;
   flex-grow: 3;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
 }
-.contactos {
+
+.principal h3,
+h4 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.principal h3 {
+  font-size: 3em;
+}
+.text_a {
   display: flex;
-  background-color: #ef2b0d;
-  border: solid 2px #fff;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.text_norm {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.text_n {
+  font-size: 1.1em;
+  font-weight: 900;
+}
+.item_contactos {
+  border: solid 1px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-style: groove;
   border-radius: 8px;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  width: 20%;
+  width: 21em;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 25em;
+  background-color: #2424b6;
+}
+.item_contactos img {
+  border-radius: 50%;
+  border: solid 1px #fff;
+  margin: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.text_contacto h4 {
+  margin: 0%;
+  padding: 0%;
+  font-size: medium;
+
+  margin-right: 20px;
+}
+.text_contacto h5 {
+  margin: 0%;
+  padding: 0%;
+  font-size: x-small;
+  color: #fff;
+
+  margin-right: 20px;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.item_contactos_goku {
+  border: solid 1px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: groove;
+  border-radius: 8px 8px 0px 0px;
+  width: 21em;
+  background-color: #2424b6;
+}
+.item_contactos_goku img {
+  border-radius: 50%;
+  margin: 5px;
+  border: solid 1px #fff;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.estado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #fff;
+  border-style: groove;
+  border-radius: 10px 10px 0px 0px;
+}
+
+i {
+  color: #fff;
+
+  margin-right: 10px;
+}
+
+.contenedor_estado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.new_chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #fff;
+  border-style: groove;
+  background-color: #fff;
+}
+
+.text_contacto_goku h4 {
+  margin: 0%;
+  padding: 0%;
+  font-size: small;
+}
+.text_contacto_goku h5 {
+  margin: 0%;
+  padding: 0%;
+  font-size: xx-small;
+  color: #fff;
+}
+
+.new_chat button {
+  border: solid 1px #fff;
+  border-style: groove;
+  border-radius: 10px;
+  background-color: #2424b6;
+  color: #fff;
+  width: 10em;
+  height: 3em;
+}
+
+.contacto_info {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.item_contactos_chat {
+  border: solid 2px #dad2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: groove;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #fff;
+  width: 21em;
+  height: 4em;
+}
+
+.vegeta {
+  margin-top: 1em;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 1em;
+}
+
+.item_goku {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 25em;
+  background-color: #2424b6;
 }
